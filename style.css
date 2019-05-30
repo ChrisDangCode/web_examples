@@ -1,0 +1,53 @@
+body{
+    background-color: #000;
+}
+
+.text-header{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 3% 20%;
+}
+
+.opp-my-color{
+    color: #fff;
+}
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+    line-height: 1.75em;
+}
+
+.link-icon{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.work-examples{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 3% 5%;
+}
+
+.example-photo{width: 20%;}
+
+.example-row{display: flex; flex-direction: row; justify-content: space-between;}
+
+.example-item{display: flex; flex-direction: column;}
+
+@media only screen and (aspect-ratio: 16/9){
+    .text-header{margin: 5% 5%;}
+    p{font-size: 1.2em; line-height: 1.3em;}
+}
