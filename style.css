@@ -54,7 +54,7 @@ footer{
     margin-bottom: 3%;
 }
 
-@media only screen and (aspect-ratio: 16/9){
+@media only screen and (orientation: portrait){
     .text-header{margin: 5% 5%;}
     p{font-size: 1.2em; line-height: 1.3em;}
 }
