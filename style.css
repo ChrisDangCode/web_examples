@@ -39,9 +39,10 @@ img{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: 3% 5%;
+    font-size: 0.7em
 }
 
-.example-photo{width: 20%;}
+.example-photo{width: 90%; margin: 0 auto;}
 
 .example-row{display: flex; flex-direction: row; justify-content: space-between;}
 
