@@ -1,54 +1,76 @@
-body{
-    background-color: #000;
-}
+<!DOCTYPE html>
 
-.text-header{
-    
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin: 3% 20%;
-}
 
-.opp-my-color{
-    color: #fff;
-}
+<html>
+<title>Chris Dang Codes</title>
 
-h1{
-    font-size: 3em;
-}
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-p{
-    font-size: 2em;
-    line-height: 1.75em;
-}
 
-.link-icon{
-    text-decoration: none;
-}
 
-footer{
-    text-align: center;
+<body>
+  <div class="text-header">
+  <h1 class="opp-my-color">Chris Dang</h1>
+  <p class="opp-my-color">Chris Dang is a first generation, Asian american computer science graduate of the University of Minnesota. He currently works as a contractor at Jostens as
+    an <b>Internet Operations Specialist</b>, building web pages and maintaining the back end web catalogs for the College and ProChamp markets.
+  </p>
 
-}
+  <!--
+  <p class="opp-my-color">
+    He is known to be curious and determined when learning and completing a project.
+  </p>-->
+  
+</div>
 
-img{
-    max-width: 100%;
-}
+<div class="work-examples">
+  <p class="opp-my-color">
+    Experience:<br>
+    Jostens - Internet Operations Specialist - Contactor<br>
+    March - present<br>
+    ● Maintain and update web catalogs for college campuses web stores across the U.S. <br>
+● Resolve bugs and requests through Jira while under deadline, averaging 90 tickets resolved per 
+month. <br>
+● Develop and deploy new web sites for public consumption of information using Rhythmyx CMS, 
+HTML, and CSS. <br>
+● Process web images for colleges and prochamp sports, including the Boston Red Sox.<br>
+<br>
+    Links for Jostens examples:
+  
+    <div class="example-row">
+      <div class="example-item">
+    <img target="blank" href="https://www.jostens.com/jewelry/college-jewelry.html" class="example-photo" src="college-class-rings-college-jewelry-jostens.png">
+    <a target="blank" href="https://www.jostens.com/jewelry/college-jewelry.html">College Jewelry Landing Page</a>
+  </div>
+  <div class="example-item">
+    <img target="blank" href="https://www.jostens.com/jewelry/high-school-sarah-chloe.html class="example-photo" src="sarah-chloe-high-school-class-jewlery-desktop.png">
+    <a target="blank" href="https://www.jostens.com/jewelry/high-school-sarah-chloe.html">Sarah Chloe Jewelry Page</a>
+  </div>
 
-.work-examples{
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin: 3% 5%;
-    font-size: 0.7em
-}
+  <div class="example-item">
+      <img target="blank" href="https://www.jostens.com/sports/highschool-championship-rings-jewelry.html" class="example-photo" src="hs-champ-jwlry.png">
+    <a target="blank" href="https://www.jostens.com/sports/highschool-championship-rings-jewelry.html">High School Champ Rings</a>
+  </div>
 
-.example-photo{width: 90%; margin: 0 auto;}
 
-.example-row{display: flex; flex-direction: row; justify-content: space-between;}
+    <div class="example-item">
+        <img  target="blank" href="http://jostens.com/band" class="example-photo" src="GDB-band-landing-page.png">
+    <a target="blank" href="http://jostens.com/band">High School Band Fundraising Info</a>
+  </div>
+  </div>
 
-.example-item{display: flex; flex-direction: column;}
+  </p>
+</div>
 
-@media only screen and (aspect-ratio: 16/9){
-    .text-header{margin: 5% 5%;}
-    p{font-size: 1.2em; line-height: 1.3em;}
-}
+
+<footer>
+<a class="fa fa-5x fa-github opp-my-color link-icon" href="https://github.com/ChrisDangCode"  target="_blank"></a>
+<a class="fa fa-5x fa-linkedin opp-my-color link-icon" href="https://www.linkedin.com/in/chris-dang-code-and-photo"  target="_blank"></a>
+</footer>
+
+</body>
+</html>
