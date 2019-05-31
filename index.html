@@ -1,106 +1,70 @@
-<!DOCTYPE html>
+body{
+    background-color: #000;
+}
+
+.text-header{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 3% 20%;
+}
+
+.opp-my-color{
+    color: #fff;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+hr{width: 80%;}
+
+p{
+    font-size: 2em;
+    line-height: 1.75em;
+}
+
+.link-icon{
+    text-decoration: none;
+    margin: 0 2%
+}
+
+.issuu-links{
+    margin: 0 2%;
+}
+
+footer{
+    text-align: center;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.work-examples{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 3% 5%;
+    font-size: 0.7em
+}
+
+.example-photo{width: 90%; margin: 0 auto;}
+
+.example-row{display: flex; flex-direction: row; justify-content: space-between;}
+
+.example-item{display: flex; flex-direction: column;}
 
 
-<html>
-<title>Chris Dang Codes</title>
+footer{
+    margin-bottom: 3%;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-
-
-<body>
-  <div class="text-header">
-    <h1 class="opp-my-color">Chris Dang</h1>
-    <p class="opp-my-color">Chris Dang is a first generation, Asian american computer science graduate of the University
-      of Minnesota. He currently works as a contractor at Jostens as
-      an <b>Internet Operations Specialist</b>, building web pages and maintaining the back end web catalogs for the
-      College and ProChamp markets.
-    </p>
-  </div>
-
-  <hr class="opp-my-color">
-
-  <div class="work-examples">
-
-    <h2 class="opp-my-color">Experience</h2>
-    <p class="opp-my-color">
-      Jostens - Internet Operations Specialist - Contactor<br>
-      March 2019 - present<br>
-      ● Maintain and update web catalogs for college campuses web stores across the U.S. <br>
-      ● Resolve bugs and requests through Jira while under deadline, averaging 90 tickets resolved per
-      month. <br>
-      ● Develop and deploy new web sites for public consumption of information using Rhythmyx CMS,
-      HTML, and CSS. <br>
-      ● Process web images for colleges and prochamp sports, including the Boston Red Sox.<br>
-      <br>
-      Links for Jostens examples:
-    </p>
-    <div class="example-row">
-
-      <div class="example-item">
-        <a target="blank" href="https://www.jostens.com/jewelry/college-jewelry.html">
-          <img class="example-photo" src="college-class-rings-college-jewelry-jostens.png">
-        </a>
-        <a target="blank" href="https://www.jostens.com/jewelry/college-jewelry.html">College Jewelry Landing Page</a>
-      </div>
-
-      <div class="example-item">
-        <a target="blank" href="https://www.jostens.com/jewelry/high-school-sarah-chloe.html">
-          <img class="example-photo" src="sarah-chloe-high-school-class-jewlery-desktop.png">
-        </a>
-        <a target="blank" href="https://www.jostens.com/jewelry/high-school-sarah-chloe.html">Sarah Chloe Jewelry
-          Page</a>
-      </div>
-
-      <div class="example-item">
-        <a target="blank" href="https://www.jostens.com/sports/highschool-championship-rings-jewelry.html">
-          <img class="example-photo" src="hs-champ-jwlry.png"></a>
-        <a target="blank" href="https://www.jostens.com/sports/highschool-championship-rings-jewelry.html">High School
-          Champ Rings</a>
-      </div>
-
-      <div class="example-item">
-        <a target="blank" href="http://jostens.com/band" class="example-photo">
-          <img src="GDB-band-landing-page.png"></a>
-        <a target="blank" href="http://jostens.com/band">High School Band Fundraising Info</a>
-      </div>
-    </div>
-    <p class="opp-my-color">
-      Photographer<br>
-      Minnesota Daily<br>
-      Aug 2016 – Aug 2017<br>
-      ● Documented and archived events up to four time per week across University campus within deadline.<br>
-      ● Collaborated weekly with reporters to create quality stories.<br>
-      ● Critiqued photographers on a weekly basis to achieve better and more consistently strong photos.<br>
-      ● Edited photos for print and managed staff photographers to uphold the high standard of MN Daily quality.<br><br>
-      Example of papers I edited:<br>
-      <a target="blank" href="https://issuu.com/mndaily/docs/june_14__2017">June 14 issue</a>
-      <a target="blank" href="https://issuu.com/mndaily/docs/june_21__2017">June 21 issue</a>
-      <a target="blank" href="https://issuu.com/mndaily/docs/june_28__2017">June 28 issue</a>
-      <br><br>
-      Tech Support<br>
-      Anoka-Ramsey Community College<br>
-      Feb 2014 – Oct 2014<br>
-      ● Assisted students, faculty, and staff in troubleshooting desktop problems.<br>
-      ● Logged an average of 10 tickets per hour from in person and phone call issues.<br>
-      ● Maintained the campus open computer lab.<br>
-
-
-    </p>
-  </div>
-
-
-  <footer>
-    <a class="fa fa-5x fa-github opp-my-color link-icon" href="https://github.com/ChrisDangCode" target="_blank"></a>
-    <a class="fa fa-5x fa-linkedin opp-my-color link-icon" href="https://www.linkedin.com/in/chris-dang-code-and-photo"
-      target="_blank"></a>
-  </footer>
-
-</body>
-
-</html>
+@media only screen and (orientation: portrait){
+    .text-header{margin: 5% 5%;}
+    p{font-size: 1.2em; line-height: 1.3em;}
+}
