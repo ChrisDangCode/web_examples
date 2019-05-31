@@ -1,16 +1,30 @@
-body{
-    background-color: #000;
-}
+body{background-color: #000;}
 
-.text-header{
-    
+.text-header{    
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: 3% 20%;
 }
 
-.opp-my-color{
-    color: #fff;
+.opp-my-color{color: #fff;}
+.dark-blue{color: #2176FF;}
+.light-blue{color: #33A1FD;}
+
+/* A link that has not been visited */
+a:link {
+    color: #2176FF;
+}
+/* A link that has been visited */
+a:visited {
+    color: #33A1FD;
+}
+/* A link that is hovered on */
+a:hover {
+    color: #FDCA40;
+}
+/* A link that is selected */
+a:active {
+    color: #F79824;
 }
 
 h1{
@@ -21,7 +35,11 @@ h2{
     font-size: 2.5em;
 }
 
-hr{width: 80%;}
+hr{
+    width: 75%;
+    border: 0;
+    border-top: 1px solid #33A1FD;
+}
 
 p{
     font-size: 2em;
@@ -68,3 +86,5 @@ footer{
     .text-header{margin: 5% 5%;}
     p{font-size: 1.2em; line-height: 1.3em;}
 }
+
+/* Color theme from online */
